@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>0x4m4 - Security Testing Lab</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .header {
+            background-color: #003366;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        .nav {
+            background-color: #004d99;
+            padding: 0.5rem;
+            color: white;
+        }
+        .nav a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+        }
+        .container {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .warning {
+            color: #721c24;
+            background-color: #f8d7da;
+            border: 1px solid #f5c6cb;
+            padding: 1rem;
+            border-radius: 4px;
+            margin-bottom: 1rem;
+        }
+        .form-group {
+            margin-bottom: 1rem;
+        }
+        input[type="text"] {
+            width: 100%;
+            padding: 0.5rem;
+            margin-bottom: 1rem;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        input[type="submit"] {
+            background-color: #003366;
+            color: white;
+            padding: 0.5rem 2rem;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #004d99;
+        }
+        .footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #003366;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .lab-info {
+            background-color: #e7f3fe;
+            border-left: 4px solid #2196F3;
+            padding: 1rem;
+            margin-bottom: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>SSDD Semester Project: Buffer Overflow</h1>
+    </div>
+    <div class="nav">
+        <a href="#">Home</a>
+        <a href="#">Labs</a>
+    </div>
+    
+    <div class="container">
+        <div class="lab-info">
+            <h2>Buffer Overflow Testing Environment</h2>
+            <p>Lab Module: Secure Software Development</p>
+            <p>Purpose: Demonstration of buffer overflow vulnerabilities in controlled environment</p>
+        </div>
+
+        <div class="warning">
+            <strong>⚠️ Warning:</strong> This is an educational demonstration of a buffer overflow vulnerability. 
+            For academic purposes only. The website will crash with too much input and load!
+        </div>
+
+        <div class="form-group">
+            <h3>Lab Exercise</h3>
+            <p>Enter text to test buffer overflow (buffer size is 10 characters):</p>
+            <form method="POST">
+                <input type="text" name="input" placeholder="Enter test string here...">
+                <input type="submit" value="Run Test">
+            </form>
+        </div>
+    </div>
+
+    <div class="footer">
+        © 2025 0x4m4 Security Testing Lab | www.0x4m4.com
+    </div>
+</body>
+</html>

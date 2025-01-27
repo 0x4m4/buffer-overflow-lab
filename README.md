@@ -37,7 +37,7 @@ buffer-overflow-demo/
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/0x4m4/buffer-overflow-demo.git
+git clone https://github.com/0x4m4/buffer-overflow-lab.git
 cd buffer-overflow-demo
 ```
 
@@ -85,4 +85,4 @@ This application is intentionally vulnerable and should only be used in isolated
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🤝 Contributing
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/0x4m4/buffer-overflow-demo/issues).
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/0x4m4/buffer-overflow-lab/issues).
